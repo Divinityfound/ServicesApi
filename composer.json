@@ -1,6 +1,6 @@
 {
     "name": "divinityfound/servicesapi",
-    "description": "Parse Craigslist data and return it in json format.",
+    "description": "Connect with Mathison Projects Services API.",
     "authors": [
         {
             "name": "Jacob Mathison",
