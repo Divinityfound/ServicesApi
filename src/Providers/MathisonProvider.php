@@ -13,6 +13,6 @@ class MathisonProvider extends ServiceProvider {
 			return new Service();
 		});
 
-		$this->app->alias('service', Service::class);
+		$this->app->alias('service', Divinityfound\ServicesApi\Service::class);
    }
 }
