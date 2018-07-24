@@ -10,7 +10,7 @@
 	     *
 	     * @return string
 	     */
-	    protected static function getFacadeAccessor() { return 'MathisonApi'; }
+	    protected static function getFacadeAccessor() { return 'service'; }
 	}
 
 ?>

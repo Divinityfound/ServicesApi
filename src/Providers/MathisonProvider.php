@@ -9,8 +9,10 @@ class MathisonProvider extends ServiceProvider {
    public function boot() { }
 
    public function register() {
-      App::bind('MathisonApi',function() {
-         return new Divinityfound\ServicesApi\Facades\ServiceFacade;
-      });
+		$this->app->singleton('service'), function() {
+			return new Service();
+		});
+
+		$this->app->alias('service', Service::class);
    }
 }
