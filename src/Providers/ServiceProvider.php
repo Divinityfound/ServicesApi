@@ -9,7 +9,7 @@ class ServiceProvider extends ServiceProvider {
    public function boot() { }
 
    public function register() {
-      App::bind('MathisonService',function() {
+      App::bind('MathisonApi',function() {
          return new Divinityfound\ServicesApi\Facades\ServiceFacade;
       });
    }
