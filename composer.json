@@ -1,0 +1,22 @@
+{
+    "name": "divinityfound/servicesapi",
+    "description": "Parse Craigslist data and return it in json format.",
+    "authors": [
+        {
+            "name": "Jacob Mathison",
+            "email": "jmathison@bitbasic.com",
+            "role": "Software Engineer"
+        }
+    ],
+    "require": {
+        "php"               : ">=5.3.0",
+        "illuminate/support": "*",
+        "guzzlehttp/guzzle" : "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Divinityfound\\ServicesApi\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
