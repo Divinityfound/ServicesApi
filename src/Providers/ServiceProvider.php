@@ -5,7 +5,7 @@ namespace Divinityfound\ServicesApi\Providers;
 use App;
 use Illuminate\Support\ServiceProvider;
 
-class ServiceProvider extends ServiceProvider {
+class MathisonProvider extends ServiceProvider {
    public function boot() { }
 
    public function register() {

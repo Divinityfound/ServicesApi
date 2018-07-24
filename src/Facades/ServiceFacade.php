@@ -3,7 +3,7 @@
 
 	use Illuminate\Support\Facades\Facade;
 
-	class ServiceFacade extends Facade
+	class MathisonFacade extends Facade
 	{
 	    /**
 	     * Get the registered name of the component.
